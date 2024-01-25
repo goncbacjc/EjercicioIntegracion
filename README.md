@@ -16,8 +16,14 @@ El proyecto está creado con:
 * Maven library
 * H2
 * JWT
-## Configuración y Ejecución
+
+## Configuración
 Para correr el proyecto se necesita tener instalados todos los servicios pertinentes.
+
+##Ejecución
+Luego de levantar el proyecto, desde la pestaña File -> Import en postman (Primera imagen) pegar el siguiente curl para generar el token de acceso del usuario.
+
+![POST Token](/Users/gonzalolopez/Documents/Worksplace/spring-boot-apirest-clientes/src/main/resources/images/importarPostman.png)
 
 POST Token
 ```
@@ -29,6 +35,13 @@ curl --location 'http://localhost:8080/oauth/token' \
 --data-urlencode 'password=12345' \
 --data-urlencode 'grant_type=password'
 ```
+
+Ejecutar (send) el curl y copiar el valor devuelto para "access_token" que generamos con el primer curl.
+
+![token](/Users/gonzalolopez/Documents/Worksplace/spring-boot-apirest-clientes/src/main/resources/images/token.png)
+
+Repetir el paso 1 importando el segundo curl para crear un nuevo cliente y pegar el token generado en el textBox de "Token" como muestra la imagen.
+
 POST Clientes
 ```
 curl --location 'http://localhost:8080/api/clientes' \
@@ -54,6 +67,10 @@ curl --location 'http://localhost:8080/api/clientes' \
     
 }'
 ```
+
+![token_pegado](/Users/gonzalolopez/Documents/Worksplace/spring-boot-apirest-clientes/src/main/resources/images/tokennPegado.png)
+
+
 GET Clientes
 ```
 curl --location 'http://localhost:8080/api/clientes' \
