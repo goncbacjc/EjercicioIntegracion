@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b9a4a22-d25b-43b2-a381-4d262c3ae5bf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-apirest-clientes.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/SpringBootBackendApirestApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/auth/AuthorizationServerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/auth/JwtConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/auth/ResourceServerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/auth/SpringSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/controllers/ClienteRestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/models/dao/IClienteDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/models/dao/ITelefonoDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/models/dao/IUsuarioDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/models/entity/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/models/entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/models/entity/Telefono.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/models/entity/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/models/services/ClienteServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/models/services/IClienteService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/models/services/ITelefonoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/models/services/IUsuarioService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/models/services/TelefonoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/backend/apirest/models/services/UsuarioService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/springboot/backend/apirest/SpringBootBackendApirestApplicationTests.class" beforeDir="false" />
-    </list>
+    <list default="true" id="9b9a4a22-d25b-43b2-a381-4d262c3ae5bf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,18 +65,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IClienteDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/backend/apirest/models/dao/IClienteDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ClienteRestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/backend/apirest/controllers/ClienteRestController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,12 +86,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="420">
-                <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+              <first_editor relative-caret-position="240">
+                <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -138,11 +103,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-boot-backend-apirest.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-backend-apirest.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -223,6 +197,11 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spring-boot-backend-apirest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-backend-apirest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -380,12 +359,12 @@
       <workItem from="1706211328182" duration="34000" />
       <workItem from="1706211382779" duration="290000" />
       <workItem from="1706211739637" duration="97000" />
-      <workItem from="1706211840594" duration="376000" />
+      <workItem from="1706211840594" duration="1013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54705000" />
+    <option name="totallyTimeSpent" value="55342000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,7 +377,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5007153" side_tool="true" weight="0.29939395" />
@@ -417,10 +395,10 @@
       <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.34545454" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32901555" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.34545454" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32848486" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.29939395" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.29939395" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21244635" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -460,13 +438,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/backend/apirest/models/services/ClienteServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/backend/apirest/models/services/TelefonoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -758,16 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="420">
-            <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -782,6 +743,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-backend-apirest.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
