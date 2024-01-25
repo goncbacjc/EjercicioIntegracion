@@ -10,8 +10,9 @@ Este servicio está destinado al manejo de Usuarios, Roles, Permisos y Creación
 	
 ## Tecnologías
 El proyecto está creado con:
-* Java 10
-* Spring Boot 2.0.0
+* Java
+* Spring Framework
+* Spring Boot
 * Spring Security
 * Maven library
 * H2
@@ -23,7 +24,7 @@ Para correr el proyecto se necesita tener instalados todos los servicios pertine
 ##Ejecución
 Luego de levantar el proyecto, desde la pestaña File -> Import en postman (Primera imagen) pegar el siguiente curl para generar el token de acceso del usuario.
 
-![POST Token](/Users/gonzalolopez/Documents/Worksplace/spring-boot-apirest-clientes/src/main/resources/images/importarPostman.png)
+<img width="1388" alt="importarPostman" src="https://github.com/goncbacjc/EjercicioIntegracion/assets/12086527/3e3d9d65-24cd-4fe4-832b-6b70746c18c0">
 
 POST Token
 ```
@@ -38,7 +39,7 @@ curl --location 'http://localhost:8080/oauth/token' \
 
 Ejecutar (send) el curl y copiar el valor devuelto para "access_token" que generamos con el primer curl.
 
-![token](/Users/gonzalolopez/Documents/Worksplace/spring-boot-apirest-clientes/src/main/resources/images/token.png)
+<img width="1388" alt="token" src="https://github.com/goncbacjc/EjercicioIntegracion/assets/12086527/d7327e29-2407-4c64-aadf-73bf508f9f8f">
 
 Repetir el paso 1 importando el segundo curl para crear un nuevo cliente y pegar el token generado en el textBox de "Token" como muestra la imagen.
 
@@ -68,7 +69,7 @@ curl --location 'http://localhost:8080/api/clientes' \
 }'
 ```
 
-![token_pegado](/Users/gonzalolopez/Documents/Worksplace/spring-boot-apirest-clientes/src/main/resources/images/tokennPegado.png)
+<img width="998" alt="tokennPegado" src="https://github.com/goncbacjc/EjercicioIntegracion/assets/12086527/9468731d-4423-4e9b-9287-c9234048b8ba">
 
 
 GET Clientes
